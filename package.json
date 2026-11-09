@@ -1,0 +1,25 @@
+{
+  "name": "the-last-signal-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "remotion studio src/index.ts",
+    "build": "remotion render src/index.ts TheLastSignal out/the-last-signal.mp4",
+    "still": "remotion still src/index.ts TheLastSignal out/preview.png",
+    "build:3d": "remotion render src/index.ts TheLastSignal3D out/the-last-signal-3d.mp4",
+    "still:3d": "remotion still src/index.ts TheLastSignal3D out/the-last-signal-3d-preview.png"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.280",
+    "@remotion/google-fonts": "4.0.280",
+    "remotion": "4.0.280",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.12",
+    "@types/three": "^0.170.0",
+    "typescript": "5.7.2"
+  }
+}
