@@ -1,0 +1,17 @@
+{
+  "name": "world-walk-remotion",
+  "private": true,
+  "scripts": {
+    "render": "remotion render src/index.ts WorldWalk out/world-walk.mp4"
+  },
+  "dependencies": {
+    "remotion": "^4.0.0",
+    "three": "^0.170.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.170.0",
+    "typescript": "^5.0.0"
+  }
+}
